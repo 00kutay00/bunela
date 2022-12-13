@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+		
+		<script type="module" src="js/main.js"></script>
+		
+		<title>Doya Doya</title>
+	</head>
+	<body>
+		<script type="module">
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
+			import { getFirestore, doc, collection, addDoc, setDoc } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js";
+			
+			
+			await setDoc(doc(db,"users"),{
+				name: "kutay",
+				fucker: "dewlet",
+				ilah: "god"
+			});
+		
+		</script>
+	</body>
+</html>
